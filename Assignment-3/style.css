@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+.navBar {
+  width: 80vw;
+  margin: auto;
+}
+ul.navLink {
+}
+
+.navItem {
+  grid-column: 2/3;
+}
+
+ul.navLink {
+  display: flex;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: forestgreen;
+  position: fixed;
+  transform: translate(-76px, 151px);
+  height: 53vh;
+}
+
+ul.navLink > li {
+  margin: 7px 31px;
+  list-style: none;
+}
+
+ul.navLink li:last-child {
+  margin: 0px;
+}
+
+ul.navLink li:first-child {
+  margin: 0px;
+}
+ul.navLink li a {
+  color: #000;
+}
+.mainDoc {
+  width: 65vw;
+  margin: auto;
+}
+.doc1 {
+  border: 1px solid #333;
+  margin-bottom: 8px;
+  padding: 10px;
+}
